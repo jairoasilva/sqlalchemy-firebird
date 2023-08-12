@@ -51,6 +51,7 @@ setup(
         "fdb; python_version < '3.8'",
         "SQLAlchemy >= 2.0; python_version >= '3.8'",
         "firebird-driver; python_version >= '3.8'",
+        "packaging; python_version >= '3.8'",
 ],
     zip_safe=False,
     entry_points={
